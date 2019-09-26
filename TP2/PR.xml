@@ -2,6 +2,7 @@
 <!DOCTYPE PR SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/DWeb2019/TP2/PR.dtd">
 <PR>
     <header>
+        <keyname>TP2-DAW</keyname>
         <supervisor>
             <nome>José Carlos Ramalho</nome>
             <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
@@ -24,6 +25,7 @@
         Por fim, foi pedida também a realização de um exercício de consolidação sobre XPath sobre os arqueossitios.
     </resumo>
     <deliverables>
+        <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/PR.xml - Ficheiro XML de acordo com o DTD do PR realizado</link>
         <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/PR.dtd - DTD do PR</link>
         <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/arq.dtd - DTD dos arqueossitios</link>
         <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/ex6 - Exercicio 6 da Ficha 3 sobre XPath</link>
