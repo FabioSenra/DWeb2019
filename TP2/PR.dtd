@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT PR (header,grupo,resumo,deliverables,data) >
-<!ELEMENT header (supervisor,titulo,subtitlo?,datai,dataf)>
+<!ELEMENT header (supervisor,titulo,subtitulo?,datai,dataf)>
 <!ELEMENT supervisor (nome,homepage)>
 <!ELEMENT nome (#PCDATA)>
 <!ELEMENT homepage (#PCDATA) >
