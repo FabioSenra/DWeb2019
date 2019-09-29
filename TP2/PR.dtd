@@ -20,3 +20,6 @@
 <!ELEMENT titulo (#PCDATA) >
 <!ELEMENT subtitulo (#PCDATA) >
 <!ELEMENT keyname (#PCDATA) >
+
+<!ATTLIST link
+            url CDATA #REQUIRED>

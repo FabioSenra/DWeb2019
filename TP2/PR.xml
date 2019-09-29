@@ -25,10 +25,14 @@
         Por fim, foi pedida também a realização de um exercício de consolidação sobre XPath sobre os arqueossitios.
     </resumo>
     <deliverables>
-        <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/PR.xml - Ficheiro XML de acordo com o DTD do PR realizado</link>
-        <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/PR.dtd - DTD do PR</link>
-        <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/arq.dtd - DTD dos arqueossitios</link>
-        <link>https://github.com/FabioSenra/DWeb2019/blob/master/TP2/ex6 - Exercicio 6 da Ficha 3 sobre XPath</link>
+        <link url="PR.xml">
+            Ficheiro XML de acordo com o DTD do PR realizado</link>
+        <link url="PR.dtd"> 
+            DTD do PR</link>
+        <link url="arq.dtd">
+            DTD dos arqueossitios</link>
+        <link url="ex6">
+            Exercicio 6 da Ficha 3 sobre XPath</link>
     </deliverables>
     <data>26-09-2019</data>
 </PR>
