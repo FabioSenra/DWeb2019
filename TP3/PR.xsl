@@ -69,7 +69,7 @@
         <hr/>
         <h3>Abstract:</h3>
         <xsl:for-each select="p">
-            <xsl:value-of select="current()"/> <br/>
+            <xsl:value-of select="."/> <br/>
         </xsl:for-each>
         <hr/>
     </xsl:template>
@@ -77,16 +77,12 @@
     <xsl:template match="deliverables">
         <hr/>
         <h3>Deliverables:</h3>
-        <ul>
+        <ul class="w3-ul w3-grey">
         <xsl:for-each select="deliverable">
             <li><a href="{@path}"><xsl:value-of select="."/></a></li>
         </xsl:for-each>
         </ul>
         <hr/>
-    </xsl:template>
-    
-    <xsl:template match="abstract/p/b">
-        <b><xsl:value-of select="."/></b>
     </xsl:template>
     
 </xsl:stylesheet>
