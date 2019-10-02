@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/aula3/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP3</keyname>
+        <title>XSLT e Transformações</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho <b>consistiu</b> na realização de uma stylesheet para transformação do PR para uma página HTML e ainda na tranformação de um ficheiro de arqueossitios num website com navegação.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/FabioSenra/DWeb2019/blob/master/TP2/arq.dtd"> ARQ DTD</deliverable>
+        <deliverable path="https://github.com/FabioSenra/DWeb2019/blob/master/TP2/arq.dtd"> ARQ DTD</deliverable>
+    </deliverables>
+</pr>
