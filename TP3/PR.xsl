@@ -69,9 +69,25 @@
         <hr/>
         <h3>Abstract:</h3>
         <xsl:for-each select="p">
-            <xsl:value-of select="."/> <br/>
+            <xsl:apply-templates/> <br/>
         </xsl:for-each>
         <hr/>
+    </xsl:template>
+    
+    <xsl:template match="b">
+        <b><xsl:value-of select="."/> <xsl:apply-templates/> </b>
+    </xsl:template>
+    
+    <xsl:template match="i">
+        <i><xsl:value-of select="."/> <xsl:apply-templates/> </i>
+    </xsl:template>
+    
+    <xsl:template match="u">
+        <u><xsl:value-of select="."/> <xsl:apply-templates/> </u>
+    </xsl:template>
+    
+    <xsl:template match="xref">
+        <a href="{@url}"><xsl:value-of select="."/></a>
     </xsl:template>
     
     <xsl:template match="deliverables">
