@@ -18,11 +18,16 @@
     </workteam>
     <abstract>
         <p>
-            Este trabalho <b>consistiu</b> na realização de uma <i>stylesheet</i>para transformação do PR para uma página HTML e ainda na tranformação de um ficheiro de arqueossitios num website com navegação.
+            Este trabalho consistiu na realização de uma <i>stylesheet</i> para transformação do <b>Project Record</b> em <i>XML</i> para uma página HTML e ainda na tranformação de um ficheiro de arqueossitios num website com navegação.
+            O site dos arqueossitios tem uma página inicial com o índice dos locais sendo cada um desses pontos o link para mais informação sobre o mesmo.
         </p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/FabioSenra/DWeb2019/blob/master/TP2/arq.dtd"> ARQ DTD</deliverable>
-        <deliverable path="https://github.com/FabioSenra/DWeb2019/blob/master/TP2/arq.dtd"> ARQ DTD</deliverable>
+        <deliverable path="arq.xml">XML dos arqueossitios</deliverable>
+        <deliverable path="arq.xsl">Style sheet dos arqueossitios</deliverable>
+        <deliverable path="website/index.html">Página Inicial para os arqueossitios</deliverable>
+        <deliverable path="PR.xsl">Style sheet para o Proejct Record</deliverable>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
     </deliverables>
 </pr>

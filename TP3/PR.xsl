@@ -12,7 +12,7 @@
                 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
             </head>
             <body>
-                <h1>Project Record</h1>
+                <h1 align="center">Project Record</h1>
                 
                 <xsl:apply-templates/>
                 
@@ -75,15 +75,15 @@
     </xsl:template>
     
     <xsl:template match="b">
-        <b><xsl:value-of select="."/> <xsl:apply-templates/> </b>
+        <b><xsl:apply-templates/> </b>
     </xsl:template>
     
     <xsl:template match="i">
-        <i><xsl:value-of select="."/> <xsl:apply-templates/> </i>
+        <i><xsl:apply-templates/> </i>
     </xsl:template>
     
     <xsl:template match="u">
-        <u><xsl:value-of select="."/> <xsl:apply-templates/> </u>
+        <u><xsl:apply-templates/> </u>
     </xsl:template>
     
     <xsl:template match="xref">
