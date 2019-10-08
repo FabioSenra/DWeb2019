@@ -93,7 +93,7 @@
     <xsl:template match="deliverables">
         <hr/>
         <h3>Deliverables:</h3>
-        <ul class="w3-ul w3-grey">
+        <ul class="w3-ul w3-hoverable">
         <xsl:for-each select="deliverable">
             <li><a href="{@path}"><xsl:value-of select="."/></a></li>
         </xsl:for-each>

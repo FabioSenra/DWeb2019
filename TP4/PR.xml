@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP4</keyname>
+        <title>Geração de documentos XML e criação de um servidor</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este quarto trabalho prático divide-se em duas partes, inicialmente, o objetivo era a transformação de um documento XML longo em vários documentos XML em que cada um destes era composto apenas por um arqueossitio.
+        </p>
+        <p>
+            A segunda parte do trabalho tinha como principal objetivo a criação, em nodeJS, de um servidor onde passando apenas como argumento o número do arqueossitio, o documento XML deste apareceria no ecrã. Portanto através do link: <xref url="localhost:7777/"> localhost:7777/</xref><b>Nº do documento que prentende ver</b>.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="arqXML.xsl">StyleSheet dos arqueossitios</deliverable>
+        <deliverable path="serverARQ.js">Código do servidor</deliverable>
+    </deliverables>
+</pr>
