@@ -6,8 +6,13 @@
     
     <xsl:template match="ARQELEM">
         <xsl:result-document href="XML/arq{count(preceding-sibling::*)+1}.xml">
+            <xsl:processing-instruction name="xml-stylesheet">
+                href="arq2html.xsl" type="text/xsl" 
+            </xsl:processing-instruction>
             <xsl:copy-of select="."/>
         </xsl:result-document>
     </xsl:template>
+    
+    
     
 </xsl:stylesheet>

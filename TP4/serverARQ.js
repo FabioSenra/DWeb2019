@@ -12,6 +12,14 @@ var myserver = http.createServer(function(req,res) {
             res.write(data)
             res.end()
         })
+        
+    }
+    else if(pag=="arq2html.xsl"){
+        fs.readFile('arq2html.xsl',function(err,data){
+            res.writeHead(200,{'Content-Type':'text/xml'})
+            res.write(data)
+            res.end()
+        })
     }
     else{
         res.writeHead(200,{'Content-Type': 'text/xml'})
