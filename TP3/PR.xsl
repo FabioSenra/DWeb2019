@@ -22,7 +22,7 @@
     
     <xsl:template match="metadata">
         <hr/>
-        <table class="w3-table">
+        <table class="w3-table w3-striped">
             <tr>
                 <td>
                     <th>Key-name</th><td><xsl:value-of select="keyname"/></td>

@@ -18,7 +18,7 @@
     </workteam>
     <abstract>
         <p>
-            Este quarto trabalho prático divide-se em duas partes, inicialmente, o objetivo era a transformação de um documento XML longo em vários documentos XML em que cada um destes era composto apenas por um arqueossitio.
+            Este quarto trabalho prático divide-se em duas partes, inicialmente, o objetivo era a transformação de um documento XML longo em vários documentos XML em que cada um destes era composto apenas por um arqueossitio, posteriormente é usada uma stylesheet para transformar o XML em HTML.
         </p>
         <p>
             A segunda parte do trabalho tinha como principal objetivo a criação, em nodeJS, de um servidor onde passando apenas como argumento o número do arqueossitio, o documento XML deste apareceria no ecrã. Portanto através do link: <xref url="localhost:7777/"> localhost:7777/</xref><b>Nº do documento que prentende ver</b>.
@@ -26,7 +26,10 @@
     </abstract>
     <deliverables>
         <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
         <deliverable path="arqXML.xsl">StyleSheet dos arqueossitios</deliverable>
+        <deliverable path="arq2html.xsl">Stylesheet para cada arqueossitio</deliverable>
         <deliverable path="serverARQ.js">Código do servidor</deliverable>
+        <deliverable path="XML/">Pasta do ficheiro dos documentos XML de cada arqueossitio</deliverable>
     </deliverables>
 </pr>

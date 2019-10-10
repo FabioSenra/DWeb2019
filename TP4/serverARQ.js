@@ -7,7 +7,7 @@ var myserver = http.createServer(function(req,res) {
     console.log(req.method + ' ' + req.url)
     console.log(pag)
     if(parseInt(pag,10) < 123){
-        fs.readFile('XML/arq' + pag +'.xml',function(err,data){
+        fs.readFile('dataset/arq' + pag +'.xml',function(err,data){
             res.writeHead(200,{'Content-Type':'text/xml'})
             res.write(data)
             res.end()

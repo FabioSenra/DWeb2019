@@ -5,7 +5,7 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
     
     <xsl:template match="ARQELEM">
-        <xsl:result-document href="XML/arq{count(preceding-sibling::*)+1}.xml">
+        <xsl:result-document href="dataset/arq{count(preceding-sibling::*)+1}.xml">
             <xsl:processing-instruction name="xml-stylesheet">
                 href="arq2html.xsl" type="text/xsl" 
             </xsl:processing-instruction>
