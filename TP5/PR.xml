@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP5</keyname>
+        <title>Construção de aplicação para Gestão de tarefas</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O quinto trabalho prático consiste na contrução de uma aplicação para gerir a realização de tarefas. Esta aplicação foi construída com recurso ao <i>NodeJS</i> e ao <i>Pug</i>, de realçar ainda que a plicação deveria estar numa única página.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
+        <deliverable path="gestaoTarefas.js">Servidor da aplicação</deliverable>
+    </deliverables>
+</pr>
