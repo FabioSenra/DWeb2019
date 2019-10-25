@@ -123,7 +123,7 @@ router.put('/',function(req,res){
           res.redirect(303,'/')
       }
       else {
-          console.log('Erro: não consegui encontrar o elemento a update...')
+          console.log('Erro: não consegui encontrar o elemento a atualizar...')
           res.end('1')
       }
   }

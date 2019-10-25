@@ -1,5 +1,5 @@
 function verItem (ident){
-	console.log('vou tentar apagar o' + ident+'...')
+	console.log('vou tentar ver o' + ident+'...')
 	
 	axios.get('/ver/'+ident)
 		.then(function(response){

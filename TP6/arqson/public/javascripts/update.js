@@ -1,5 +1,4 @@
 function updateItem (prov,local,tit,musico){
-    console.log('ola')
 	console.log('vou tentar atualizar o' + prov +'...')
 	axios.put('/',{
         uprov:prov,
