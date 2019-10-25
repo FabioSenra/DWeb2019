@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP5</keyname>
+        <title>Construção de uma aplicação para arquivos sonoros</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O sexto trabalho prático consistiu na criação de aplicação para arquivos sonoros em que fosse possível listar todos os registos, listar cada registo individualmente, inserir novos arquivos e atualizar arquivos existentes.</p>
+        <p>Para a listagem de todos os registos basta aceder a página inicial e aparecerão todos os registos guardados até ao momento.</p>
+        <p>No que toca à listagem de um registo apenas é necessário passar o número desse registo</p>
+        <p>Para a inserção de um novo registo basta preencher o formulário cujo título é "Novo Item"</p>
+        <p>Para atualização de um registo já existente ...</p>
+    </abstract>
+    <deliverables>
+        <deliverable path=""></deliverable>
+    </deliverables>
+</pr>
