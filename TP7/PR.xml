@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP7</keyname>
+        <title>Construção de uma aplicação para filmes</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Outubro 2019</bdate>
+        <edate>Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste trabalho prático foi construida uma aplicação para filmes que possibilita a introdução, edição e remoção dos mesmos.</p>
+        <p>Foi ainda feita a persistência com recurso a MongoDB.</p>
+        <p>Foram ainda resolvidas as interrogações de mongoDB.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="tpc">Queries de MongoDB</deliverable>
+        <deliverable path="filmes/routes/filmes.js">Servidor</deliverable>
+        <deliverable path="filmes/controllers/filmes.js">Controllers</deliverable>
+        <deliverable path="filmes/models/filme.js">Model do filme</deliverable>
+        
+    </deliverables>
+</pr>
