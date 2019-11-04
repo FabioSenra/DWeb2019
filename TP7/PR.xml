@@ -24,7 +24,7 @@
     <deliverables>
         <deliverable path="PR.html">HTML do Project Record</deliverable>
         <deliverable path="PR.xml">XML do Project Record</deliverable>
-        <deliverable path="tpc">Queries de MongoDB</deliverable>
+        <deliverable path="queries.txt">Queries de MongoDB</deliverable>
         <deliverable path="filmes/routes/filmes.js">Servidor</deliverable>
         <deliverable path="filmes/controllers/filmes.js">Controllers</deliverable>
         <deliverable path="filmes/models/filme.js">Model do filme</deliverable>

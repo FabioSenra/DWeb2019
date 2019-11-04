@@ -25,6 +25,22 @@ router.get('/apagar.js', function(req, res, next) {
   })
 })
 
+router.get('/caixa.js', function(req, res, next) {
+  fs.readFile('./public/javascripts/caixa.js', (erro, dados) => {
+      if(!erro) res.write(dados)
+      else res.render('error',{error: erro})
+      res.end()
+  })
+})
+
+router.get('/caixaG.js', function(req, res, next) {
+  fs.readFile('./public/javascripts/caixaG.js', (erro, dados) => {
+      if(!erro) res.write(dados)
+      else res.render('error',{error: erro})
+      res.end()
+  })
+})
+
 router.get('/ver.js', function(req, res, next) {
   fs.readFile('./public/javascripts/ver.js', (erro, dados) => {
       if(!erro) res.write(dados)
