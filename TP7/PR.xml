@@ -17,7 +17,7 @@
         </worker>
     </workteam>
     <abstract>
-        <p>Neste trabalho prático foi construida uma aplicação para filmes que possibilita a introdução, edição e remoção dos mesmos.</p>
+        <p>Neste trabalho prático foi construida uma aplicação para filmes que possibilita a introdução, edição (de todos os campos excetuando o ID) e remoção dos mesmos.</p>
         <p>Foi ainda feita a persistência com recurso a MongoDB.</p>
         <p>Foram ainda resolvidas as interrogações de mongoDB.</p>
     </abstract>
@@ -28,6 +28,5 @@
         <deliverable path="filmes/routes/filmes.js">Servidor</deliverable>
         <deliverable path="filmes/controllers/filmes.js">Controllers</deliverable>
         <deliverable path="filmes/models/filme.js">Model do filme</deliverable>
-        
     </deliverables>
 </pr>
