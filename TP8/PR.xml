@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP8</keyname>
+        <title>API de dados para Prémios Nobel</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O seguinte trabalho consistiu na construção de uma API de dados para os Prémios Nobel.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="premios/routes/api.js">API de dados</deliverable>
+        <deliverable path="premios/controllers/premios.js">Controllers</deliverable>
+        <deliverable path="premios/models/premios.js">Model do premio</deliverable>
+    </deliverables>
+</pr>
