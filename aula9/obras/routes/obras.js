@@ -11,7 +11,7 @@ router.get('/compositores', function(req, res, next) {
 });
 
 router.get('/periodos', function(req, res, next) {
-  Obras.compositores()
+  Obras.periodos()
   .then(dados => res.jsonp(dados))
   .catch(erro => res.status(500).jsonp(erro))
 });

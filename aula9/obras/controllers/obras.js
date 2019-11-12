@@ -20,7 +20,7 @@ module.exports.compositores = () => {
     return Obra.distinct("compositor").exec()
 }
 
-module.exports.compositores = () => {
+module.exports.periodos = () => {
     return Obra.distinct("periodo").exec()
 }
 
