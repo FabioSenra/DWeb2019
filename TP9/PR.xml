@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/fabiosenra/Documents/MIEI-UM/DAW/PROficial.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW-TP9</keyname>
+        <title>My MongoImport</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A82108</identifier>
+            <name>Fábio Carvalho Senra</name>
+            <email>a82108@alunos.uminho.pt</email>
+            <git>https://github.com/FabioSenra</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste pequeno trabalho era pedido que se fizesse uma função em nodejs com a mesma utilizado do mongo import.</p>
+        <p>Para uma correta utilização desta funcionalidade deve-se usar da seguinte forma: node mongoI.js -f=<b>Ficheiro da BD</b>  -d=<b>Nome da BD</b> -c=<b>Nome da coleção</b> --jsonArray</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="mongoI.js">My Mongo Import</deliverable>
+    </deliverables>
+</pr>
