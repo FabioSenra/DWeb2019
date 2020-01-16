@@ -1,0 +1,12 @@
+[
+    {
+        "sigla": "AP",
+        "designacao": "Administração Pública",
+        "id": "tip_AP"
+    },
+    {
+        "sigla": "ASF",
+        "designacao": "Autoridades de supervisão e fiscalização",
+        "id": "tip_ASF"
+    }
+]

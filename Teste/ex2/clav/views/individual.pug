@@ -1,0 +1,71 @@
+extends layout
+
+block content
+    .w3-card-4
+        h2= item.sigla
+    .w3-container
+        p 
+            b Estado 
+            = item.estado
+        p 
+            b Designação 
+            = item.designacao
+        p 
+            b Sigla 
+            = item.sigla
+    hr
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+            h1 Lista de Tipologias pertencentes à Entidade
+            .w3-container
+            table.w3-table-all
+                tr.w3-hover-blue
+                    th Sigla
+                    th Designação
+                    th ID
+                each f in tip
+                    tr.w3-hover-blue
+                        td= f.sigla
+                        td= f.designacao
+                        td
+                            a(href="/tipologias/" + f.id) 
+                                =f.id
+    hr 
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+            h1 Lista de Processos de que Entidade é Dona
+            .w3-container
+            table.w3-table-all
+                tr.w3-hover-blue
+                    th Código
+                    th Título
+                each o in dono
+                    tr.w3-hover-blue
+                        td
+                            a(href="http://clav.dglab.gov.pt/classes/consultar/c" + o.codigo)
+                                =o.codigo
+                        td= o.titulo
+    hr
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+            h1 Lista de Processos de que Entidade é Participante
+            .w3-container
+            table.w3-table-all
+                tr.w3-hover-blue
+                    th Código
+                    th Título
+                    th Tipo 
+                each o in part
+                    tr.w3-hover-blue
+                        td
+                            a(href="http://clav.dglab.gov.pt/classes/consultar/c" + o.codigo)
+                                =o.codigo
+                        td= o.titulo
+                        td= o.tipoPar
+    hr
+    form(method="get" action=`/`)
+        button.w3-btn.w3-blue.w3-section(style="width: 100%" type="submit") 
+            b Início

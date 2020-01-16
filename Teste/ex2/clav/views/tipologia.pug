@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-card-4
+            h1= tip.sigla
+            .w3-container
+                p 
+                    b Estado 
+                    = tip.estado
+                p 
+                    b Sigla 
+                    = tip.sigla
+                p 
+                    b Designação 
+                    = tip.designacao
+                p 
+                    b Internacional 
+                    = tip.internacional
+    form(method="get" action=`/`)
+        button.w3-btn.w3-blue.w3-section(style="width: 100%" type="submit") 
+            b Início
